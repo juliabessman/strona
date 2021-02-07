@@ -1,0 +1,315 @@
+
+@media only screen and (max-width: 1440px) {
+ 
+
+
+body {
+    background-color: ivory;
+}
+
+.header {
+    font-family: 'Spartan', sans-serif;
+    font-size: 2cm ;
+    color: rgb(170, 134, 79);
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 2cm;
+
+}
+
+.img {
+    margin-top: -5mm;
+    margin-bottom: 0mm;
+    margin-left: -8px;
+    margin-right: 0px;
+    width: 1440px;
+    height: 300px;
+    
+}
+@media (max-width: 600px) {
+  .img {
+    width: 600px;
+    height: 200px;
+  }
+}
+.text {
+    font-family: 'Caveat', cursive;
+    font-size: 0.8cm ;
+    color: rgb(192, 175, 149);
+    text-align: center;
+    font-weight: lighter;
+    
+}
+
+@media (max-width: 600px) {
+  .text {
+    font-size: 0.6cm;
+  }
+}
+
+
+.nav {
+    background-color: rgb(228, 216, 198);
+    overflow: hidden;
+ 
+    width: 1440px;
+    margin-left: -8px;
+    position: fixed;
+    margin-top: -2cm;
+    margin-bottom: 1cm;
+  }
+  @media (max-width: 600px) {
+    .nav {
+      width: 600px;
+    }
+  }
+
+  .nav a {
+    float: left;
+    color:  rgb(153, 115, 58);
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    font-family: 'Spartan', sans-serif;
+    text-decoration: none ;
+  
+    
+  }
+  
+  .nav a:hover {
+    background-color: rgb(192, 175, 149);
+    color: rgb(143, 97, 97);
+  }
+  
+ 
+
+.about{
+
+font-family: 'Spartan', sans-serif;
+font-size: 1cm ;
+color: rgb(170, 134, 79);
+text-align: left;
+font-style: italic;
+font-weight: lighter;
+margin-top: 2cm;
+margin-left:1cm ;
+}
+@media (max-width: 600px) {
+  .about {
+    font-size: 0.6cm;
+  }
+}
+
+
+
+
+.opis {
+
+column-count: 2;
+column-gap: 20px;
+column-rule:1px solid rgb(170, 134, 79);
+text-align: justify;
+margin-left: 1cm ;
+margin-right: 1cm ;
+font-family: 'Spartan', sans-serif;
+
+
+}
+@media (max-width: 600px) {
+  .opis {
+    column-count: 1;
+
+    font-size: 1.2cm;
+  }
+}
+
+
+.top-prod{
+  font-family: 'Spartan', sans-serif;
+font-size: 1cm ;
+color: rgb(170, 134, 79);
+text-align: left;
+font-style: italic;
+font-weight: lighter;
+margin-top: 2cm;
+margin-left:1cm ;
+
+
+}
+}
+@media (max-width: 600px) {
+  .top-prod {
+   font-size: 0.6cm;
+  }
+}
+
+.about-prod {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: flex-end;
+
+
+}
+.tp1{
+  order:1;
+  font-family: 'Spartan', sans-serif;
+  color: black;
+  margin-left: 1cm;
+  margin-top: 1cm;
+ 
+
+}
+.tp2{
+  order:2;
+  font-family: 'Spartan', sans-serif;
+  color:black;
+  margin-left: 1cm;
+
+}
+
+
+.tp3{
+  order:3;
+  font-family: 'Spartan', sans-serif;
+  color: black;
+  margin-left: 1cm;
+ 
+
+}
+
+.tp4{
+  order:4;
+  font-family: 'Spartan', sans-serif;
+  color: black;
+  margin-left: 1cm;
+  
+
+}
+.des1{
+  color:rgb(170, 134, 79);
+  font-family: 'Spartan', sans-serif;
+  margin-left: 1cm;
+
+}
+.des2{
+color:rgb(170, 134, 79);
+font-family: 'Spartan', sans-serif;
+margin-left: 1cm;
+}
+.des3{
+  color: rgb(170, 134, 79);
+  
+  font-family: 'Spartan', sans-serif;
+  margin-left: 1cm;
+
+}
+.des4{
+color: rgb(170, 134, 79);
+font-family: 'Spartan', sans-serif;
+margin-left: 1cm;
+}
+
+.top {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+text-align: justify;
+font-family: 'Spartan', sans-serif;
+font-weight: black;
+
+
+}
+.top1 {
+
+  order:1;
+  width: 250px;
+  height: 250px;
+}
+@media (max-width: 600px) {
+  .top1 {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.top2 {
+
+  order:2;
+  width: 250px;
+  height: 250px;
+}
+@media (max-width: 600px) {
+  .top2 {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.top3 {
+
+  order:3;
+  width: 250px;
+  height: 250px;
+}
+@media (max-width: 600px) {
+  .top3 {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.top4 {
+
+  order:4;
+  width: 250px;
+  height: 250px;
+}
+@media (max-width: 600px) {
+  .top4 {
+    width: 100px;
+    height: 100px;
+  }
+}
+.gallery{
+  font-family: 'Spartan', sans-serif;
+font-size: 1cm ;
+color: rgb(170, 134, 79);
+text-align: left;
+font-style: italic;
+font-weight: lighter;
+margin-top: 2cm;
+margin-left:1cm ;
+}
+
+
+.footer-sign{
+  font-family: 'Spartan', sans-serif;
+font-size: 1cm ;
+color: rgb(170, 134, 79);
+text-align: left;
+font-style: italic;
+font-weight: lighter;
+margin-top: 2cm;
+margin-left:1cm ;
+} 
+.footer{
+  color: rgb(170, 134, 79);
+font-family: 'Spartan', sans-serif;
+margin-left: 1cm;
+
+}
+.insta{ 
+  font-family: 'Spartan', sans-serif;
+font-size: 0.5cm ;
+color: rgb(170, 134, 79);
+text-align: left;
+font-style: italic;
+font-weight: lighter;
+margin-left:0.5cm ;
+  }
+
+  
